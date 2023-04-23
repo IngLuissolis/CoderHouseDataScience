@@ -6,6 +6,12 @@
 
 - Los desafios del Curso completados son los siguientes:
 
+## Desafio Visualizaciones en Python
+
+- Requerimientos:
+
+    - Elegir uno de los datasets del desafío “Elección de Potenciales Datasets e importe con la librería Pandas”. Posteriormente crearán un notebook donde cargaran el archivo utilizando funciones de pandas para luego proceder a realizar 3 gráficos diferentes con Matplotlib y 3 con Seaborn. Finalmente cada gráfico será interpretado con el fin de obtener insights relevantes que permitan dar respuesta a la pregunta problema.
+
 ## Desafio Datasets con la librería Pandas
 
 - Requerimientos:
