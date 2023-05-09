@@ -6,6 +6,18 @@
 
 - Los desafios del Curso completados son los siguientes:
 
+## Desafio Estructurando un Proyecto de DS (parte I)
+
+- Requerimientos:
+
+    - Generar preguntas de interés o hipótesis de interés sobre el dataset elegido para el proyecto final.
+    - Crear visualizaciones (univariados, bivariados o trivariados) junto con resúmenes numéricos básicos acordes con los tipos de variables disponibles.
+    - Interpretar los resultados obtenidos
+
+Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/ProyectoDS_ParteI_Solis.ipynb
+
 ## Desafio Visualizaciones en Python
 
 - Requerimientos:
