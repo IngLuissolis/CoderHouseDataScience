@@ -4,7 +4,7 @@
 
 # Desafios
 
-- Los desafios del Curso completados son los siguientes:
+- Los desafios completados del Curso son los siguientes:
 
 ## Desafio Estructurando un Proyecto de DS (parte I)
 
