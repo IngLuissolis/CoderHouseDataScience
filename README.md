@@ -6,6 +6,20 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Estructurando un Proyecto de DS (parte II)
+
+- Requerimientos:
+
+    - Abstracto con motivación y audiencia
+    - Preguntas/Hipótesis que queremos resolver mediante el análisis de datos
+    - Análisis Exploratorio de Datos (EDA)
+    - Con base en las visualizaciones y resúmenes numéricos generados del desafío anterior dar recomendaciones basados en los insights observados.
+    - Para esta oportunidad deberás tener avances en los apartados: Definición de objetivo, Contexto comercial, Problema Comercial, Contexto analítico, Exploración de datos (EDA)
+
+Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/ProyectoDS_ParteII_Solis.ipynb
+
 ## Desafio Estructurando un Proyecto de DS (parte I)
 
 - Requerimientos:
