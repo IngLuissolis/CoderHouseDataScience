@@ -6,6 +6,26 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Estructurando un Proyecto de DS (parte III)
+
+- Requerimientos:
+
+    - Crearán un notebook que complemente el trabajo realizado en los siguientes apartados: 
+        - elegir un método de feature selection para reducir la dimensionalidad del dataset, 
+        - elegir un algoritmo de regresión o clasificación para entrenar con los datos elegidos,
+        - cálculo de métricas para validar el modelo
+        - generar conclusiones con base en los resultados obtenidos.
+
+- Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/ProyectoDS_ParteIII_Solis.ipynb
+
+- Consideraciones:
+
+    - Se implemento dos selección de caracteristicas ( Correlación Pearson y Univariadas - Correlación Lineal)
+    - Se requiere una evaluación adicional y considerar otros modelos para mejorar el rendimiento de los modelos planteados.
+
+
 ## Desafio Estructurando un Proyecto de DS (parte II)
 
 - Requerimientos:
