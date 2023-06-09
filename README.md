@@ -25,6 +25,8 @@ https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Proyect
     - Se implemento dos selección de caracteristicas ( Correlación Pearson y Univariadas - Correlación Lineal)
     - Se requiere una evaluación adicional y considerar otros modelos para mejorar el rendimiento de los modelos planteados.
 
+- Archivo Adicional Implementación Desafio:
+
 https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/ProyectoDS_ParteIII_Solis_bis.ipynb
 
     - Se implementaron dos modelos adicionales (Random Forest y Elastic Net). Los resultados obtenidos son los siguientes:
@@ -36,7 +38,12 @@ https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Proyect
 
             Conclusiones: Los resultados indican que el modelo de Random Forest tiene una capacidad moderada para explicar y predecir los valores objetivo, con un R^2 de 0.699 y una precisión del 79.4%. El MAE de 0.407 muestra una diferencia promedio entre los valores reales y las predicciones.
 
-        - Elastic Net: El modelo de Elastic Net con las variables seleccionadas explica solo el 14.92% de la variabilidad de la variable objetivo. La precisión en la predicción es baja y las predicciones tienen un error medio de 1.0424 unidades en la escala de la variable objetivo.
+        - Elastic Net:
+            - Coeficiente de determinación (R^2): 0.14922875008453873
+            - Precisión en la predicción de los valores objetivos: 0.14922875008453873
+            - Error absoluto medio (MAE): 1.042423816912241
+
+            Conclusiones: El modelo de Elastic Net con las variables seleccionadas explica solo el 14.92% de la variabilidad de la variable objetivo. La precisión en la predicción es baja y las predicciones tienen un error medio de 1.0424 unidades en la escala de la variable objetivo.
 
 
 ## Desafio Estructurando un Proyecto de DS (parte II)
