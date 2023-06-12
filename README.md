@@ -22,20 +22,20 @@ https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Proyect
     - Se implementaron modelos Random Forest y Elastic Net. Resultados:
 
         - Random Forest: 
-            Error cuadrático medio (MSE) - Conjunto de entrenamiento: 3.420932607883566
-            Error cuadrático medio (MSE) - Conjunto de prueba: 2.903501202996976
-            Coeficiente de determinación (R^2) - Conjunto de entrenamiento: 0.16256611515822927
-            Coeficiente de determinación (R^2) - Conjunto de prueba: 0.2603353991224575
-            Error absoluto medio (MAE) - Conjunto de entrenamiento: 0.31082945339684603
-            Error absoluto medio (MAE) - Conjunto de prueba: 0.399162829832605
+            - Error cuadrático medio (MSE) - Conjunto de entrenamiento: 3.420932607883566
+            - Error cuadrático medio (MSE) - Conjunto de prueba: 2.903501202996976
+            - Coeficiente de determinación (R^2) - Conjunto de entrenamiento: 0.16256611515822927
+            - Coeficiente de determinación (R^2) - Conjunto de prueba: 0.2603353991224575
+            - Error absoluto medio (MAE) - Conjunto de entrenamiento: 0.31082945339684603
+            - Error absoluto medio (MAE) - Conjunto de prueba: 0.399162829832605
 
         - Elastic Net:
-            Error cuadrático medio (MSE) - Conjunto de entrenamiento: 3.420932607883566
-            Error cuadrático medio (MSE) - Conjunto de prueba: 2.903501202996976
-            Coeficiente de determinación (R^2) - Conjunto de entrenamiento: 0.16256611515822927
-            Coeficiente de determinación (R^2) - Conjunto de prueba: 0.2603353991224575
-            Error absoluto medio (MAE) - Conjunto de entrenamiento: 0.31082945339684603
-            Error absoluto medio (MAE) - Conjunto de prueba: 0.399162829832605
+            - Error cuadrático medio (MSE) - Conjunto de entrenamiento: 3.420932607883566
+            - Error cuadrático medio (MSE) - Conjunto de prueba: 2.903501202996976
+            - Coeficiente de determinación (R^2) - Conjunto de entrenamiento: 0.16256611515822927
+            - Coeficiente de determinación (R^2) - Conjunto de prueba: 0.2603353991224575
+            - Error absoluto medio (MAE) - Conjunto de entrenamiento: 0.31082945339684603
+            - Error absoluto medio (MAE) - Conjunto de prueba: 0.399162829832605
 
     - Conclusiones:
         Comparando los Modelos Finales de Random Forest y Elastic Net, el modelo Random Forest parece ser una mejor elección en comparación con el modelo Elastic Net. Esto se debe a que el modelo Random Forest presenta valores más bajos de error cuadrático medio (MSE) tanto en el conjunto de entrenamiento como en el conjunto de prueba, lo que indica una mejor capacidad de predicción y ajuste a los datos. Además, el coeficiente de determinación (R^2) es más alto en el modelo Random Forest, lo que indica que este modelo explica una mayor proporción de la varianza en los datos objetivo.
