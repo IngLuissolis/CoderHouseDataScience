@@ -6,6 +6,23 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Primera Entrega Proyecto Final
+
+- Requerimientos:
+
+    - Estructurar un problema en función de múltiples, pero simples preguntas/hipótesis a responder
+    - Analizar datos tabulares (e.g excel, csv, etc)  usando Python
+    - Utilizar modelos de Machine Learning con Python
+
+- Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/ProyectoFinal+LSolis.ipynb
+
+- Consideraciones:
+
+    - Lo analizado en Archivo ProyectoFinal+LSolis.ipynb es un compilado de los desafios anteriores.
+    - Se selecciona modelo Random Forest ya que tiene mejor performance que modelo Elastic Net, de acuerdo a lo analizado en el desafio anterior.
+
 ## Desafio Complementario Evaluando Modelos ML
 
 - Requerimientos:
