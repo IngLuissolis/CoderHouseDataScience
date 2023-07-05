@@ -6,6 +6,17 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Descarga de datos desde APIs publicas
+
+- Requerimientos:
+
+    - Buscar información en APIs públicas (i.e Twitter, NewsAPI, Spotify, Google Apis, etc).
+    - Extraer datos e importarlos a un dataframe realizando una exploración simple (i.e filas, columnas, tipos de datos).
+
+- Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_APIS_Luis+Solis.ipynb
+
 ## Primera Entrega Proyecto Final
 
 - Requerimientos:
