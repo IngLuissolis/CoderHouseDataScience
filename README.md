@@ -6,6 +6,26 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Data Wrangling:
+
+- Requerimientos:
+
+    - Iniciar el proceso de limpieza y exploración de datos según el dataset elegido para el proyecto final.
+
+    - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Data_Wrangling+Solis.ipynb
+
+- Consideraciones:
+
+    - Se encontro un valor NaN - fila 1875, columna "Nation", para player David Ozoh. Se cambia por valor "ENG", correspondiente a nacional England.
+
+    - Se encuentra 105 valores con nombres de jugadores que contienen caracter "?". Ejemplo: 
+        - Fila: 95, columna: Player, valor: Komnen Andri? 
+        - Nombre Correcto:  'Komnen Andrić'
+
+        - Se cambian los valores de los 105 nombres.
+
 ## Descarga de datos desde APIs publicas
 
 - Requerimientos:
