@@ -6,6 +6,16 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Data Storytelling:
+
+- Requerimientos:
+
+    - Iniciar el proceso de Data Storytelling respondiendo las preguntas que se quieran responder.
+
+    - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Data_Storytelling+Solis.ipynb
+
 ## Desafio Data Wrangling:
 
 - Requerimientos:
