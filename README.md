@@ -6,6 +6,19 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Obtención de insights:
+
+- Requerimientos:
+
+    - Generar insights que permitan dar respuesta a las preguntas por responder.
+
+    - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Obtencion_de_insights+Solis.ipynb
+
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Análisis_Datos_Fútbol.pptx
+
 ## Desafio Data Storytelling:
 
 - Requerimientos:
