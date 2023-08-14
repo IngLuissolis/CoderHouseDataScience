@@ -6,6 +6,16 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Segunda Pre entrega:
+
+- Requerimientos:
+
+    - Generar insights que permitan dar respuesta a las preguntas por responder.
+
+    - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/SegundaPreEntregaProyectoFinal+Solis.ipynb
+
 ## Desafio Obtención de insights:
 
 - Requerimientos:
