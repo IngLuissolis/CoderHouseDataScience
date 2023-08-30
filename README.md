@@ -6,6 +6,18 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Entrenando un algoritmo de Machine Learning
+
+- Requerimientos:
+
+    - Utilizar una fuente de datos para resolver problemas de clasificación o regresión.
+
+    - Realizar los procesos de Encoding, Feature Engineering y entrenamiento de un modelo de Machine Learning (Clasificación o Regresión).
+
+    - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_AlgoritmoML_MVP_Luis_Solis.ipynb
+
 ## Desafio Segunda Pre entrega:
 
 - Requerimientos:
