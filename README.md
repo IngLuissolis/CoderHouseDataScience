@@ -6,6 +6,68 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Evaluando modelos de Machine Learning
+
+- Requerimientos:
+
+    - Realizar una segunda ronda de Feature Engineering con el fin de ampliar el número de variables incluidas en el modelo MVP de la entrega anterior.
+
+        -   Al nuevo data set se agregan las variables:
+
+            - Sh (Shots): Número total de tiros realizados por un jugador.
+
+            - SoT (Shots on target): Número total de tiros que han ido a puerta.
+
+            - SoT% (Shots on target percentage): Porcentaje de tiros que han ido a puerta.
+
+            - Sh/90 (Shots per 90 minutes): Número medio de tiros realizados por un jugador por partido.
+
+            - SoT/90 (Shots on target per 90 minutes): Número medio de tiros que han ido a puerta por partido.
+
+            - G/Sh (Goals per shot): Número medio de goles marcados por un jugador por cada tiro realizado.
+
+            - G/SoT (Goals per shot on target): Número medio de goles marcados por un jugador por cada tiro que ha ido a puerta.
+
+            - Dist (Distance): Distancia media de los tiros realizados por un jugador.
+
+            - FK (Free kicks): Número total de tiros libres realizados por un jugador.
+
+            - npxG/Sh (Non-penalty expected goals per shot): Número medio de goles esperados por un jugador por cada tiro realizado, excluyendo los goles marcados desde el punto de penalti.
+
+    - Realizar una segunda ronda de entrenamiento con más variables.
+
+    Los resultados obtenidos para el nuevo dataset (modelo 2) son:
+
+        - feature selection - Selección de caracteristicas univariadas - Regresión Lineal - Variable Gls (Goles):
+        
+            - Mean Squared Error (MSE): 3.3632029571995354e-06
+            - R-squared (R2): 0.999999720098907
+
+        - feature selection - Selección de caracteristicas univariadas - Regresión Lineal - Variable Ast (Asistencias):
+
+            - Mean Squared Error (MSE): 5.851615851581933e-29
+            - R-squared (R2): 1.0
+
+    - Comparar la performance de ambos modelos en el conjunto de testeo.
+
+        - Modelo 1: Resultados de Desafio Anterior
+        - Modelo 2: Resultados de Actual Desafio, con incorporacion de nuevas variables
+
+        - Resultados de comparación:
+
+            - Variable Goles: 
+                    - El modelo 2 es mejor que el modelo 1 en términos de MSE.
+                    - La mejora es de un 20%.
+                    - El modelo 2 es más complejo y requiere más datos para entrenar.
+            
+            - Variable Asistencias:
+                    - En un conjunto de testeo, los modelos de regresión lineal para predecir asistencias de jugadores tienen un MSE muy bajo y un R2 muy alto. 
+                    - El modelo 1 es ligeramente más preciso que el modelo 2.
+
+- Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_EvaluacionML_Luis+Solis.ipynb
+
 ## Desafio Entrenando un algoritmo de Machine Learning
 
 - Requerimientos:
@@ -17,6 +79,7 @@
     - Archivo Implementación Desafio:
 
 https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_AlgoritmoML_MVP_Luis_Solis.ipynb
+
 
 ## Desafio Segunda Pre entrega:
 
