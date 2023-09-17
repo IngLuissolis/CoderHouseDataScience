@@ -131,3 +131,45 @@ Recov : Number of loose balls recovered
 AerWon : Aerials won
 AerLost : Aerials lost
 AerWon% : Percentage of aerials won
+
+
+https://www.kaggle.com/datasets/ameyaranade/big-5-european-leagues-player-stats-2022-23
+
+Player: Nombre del jugador
+Nation: Nacionalidad del jugador
+Pos: Posición del jugador
+Squad: Equipo del jugador
+Comp: Liga en la que juega el jugador
+Age: Edad del jugador
+Born: Fecha de nacimiento del jugador
+MP: Minutos jugados
+Starts: Número de veces que el jugador ha sido titular
+Min: Minutos totales jugados
+90s: Número de 90 minutos jugados
+Gls: Goles marcados
+Ast: Asistencias
+G+A: Goles más asistencias
+G-PK: Goles menos goles de penalti
+PK: Goles de penalti marcados
+PKatt: Penaltis lanzados
+CrdY: Tarjetas amarillas recibidas
+CrdR: Tarjetas rojas recibidas
+xG: Expected goals (Goles esperados)
+npxG: Non-penalty expected goals (Goles esperados sin penaltis)
+xAG: Expected assists (Asistencias esperadas)
+npxG+xAG: Expected goals + expected assists (Goles esperados + asistencias esperadas)
+PrgC: Tasa de acierto en pases
+PrgP: Pases por partido
+PrgR: Pases progresivos por partido
+Sh: Disparos a puerta
+SoT: Disparos a puerta acertados
+SoT%: Porcentaje de disparos a puerta acertados
+Sh/90: Disparos a puerta por partido
+SoT/90: Disparos a puerta acertados por partido
+G/Sh: Goles por disparo a puerta
+G/SoT: Goles por disparo a puerta acertado
+Dist: Distancia media de los disparos a puerta
+FK: Tiros libres
+npxG/Sh: Relación entre goles esperados y disparos a puerta
+G-xG: Diferencia entre goles marcados y goles esperados
+np:G-xG: Diferencia normalizada entre goles marcados y goles esperados

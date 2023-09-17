@@ -6,6 +6,44 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio Ingeniería de atributos y selección de variables
+
+- Requerimientos:
+
+    - Crear variables sintéticas adicionales que permitan mejorar el desempeño del modelo de ML en la entrega anterior.
+
+        - Las variables sinteticas adicionales son:
+
+            - Sh_per_90: Número de tiros por 90 minutos jugados
+            - SoT_per_90: Número de oportunidades de gol por 90 minutos jugados
+            - G_per_SoT: Número de goles por oportunidad de gol
+
+    - Probar distintos modelos y elegir el mejor teniendo en cuenta el Bias-Variance tradeoff
+
+        - Se analizaron 4 modelos:
+
+            - Regresion Lineal
+            - Random Forest 
+            - Regresion Logistica 
+            - Soporte Vectorial
+
+        - Los resultados obtenidos fueron:
+
+            - Regresion Lineal RMSE: 1.2833453636096384
+            - Bosque Aleatorio RMSE: 0.3534165543230328
+            - Regresion Logistica accuracy: 0.6322463768115942
+            - Soporte Vectorial accuracy: 0.49818840579710144
+
+            En general, los resultados obtenidos indican que los modelos de aprendizaje automático supervisado, como el bosque aleatorio y la regresión logística, son más precisos para predecir los goles de un jugador de fútbol que los modelos de aprendizaje automático no supervisado, como el soporte vectorial.
+        
+    - Realizar PCA sobre las variables usadas y explorar las cargas de los 2 primeros componentes, identificar las variables más relevantes.
+
+        -   Resultados de PCA:
+
+            - Componente 1: Está fuertemente correlacionado con las variables Sh, SoT, SoT_per_90 y Sh_per_90. Esto sugiere que este componente representa la cantidad de disparos que realiza un jugador de fútbol y la precisión de esos disparos.
+
+            - Componente 2: Está fuertemente correlacionado con las variables Gls, FK y Dist. Esto sugiere que este componente representa la productividad goleadora de un jugador de fútbol, tanto en tiros directos como en tiros lejanos.
+
 ## Desafio Evaluando modelos de Machine Learning
 
 - Requerimientos:
