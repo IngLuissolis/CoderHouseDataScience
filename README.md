@@ -44,6 +44,10 @@
 
             - Componente 2: Está fuertemente correlacionado con las variables Gls, FK y Dist. Esto sugiere que este componente representa la productividad goleadora de un jugador de fútbol, tanto en tiros directos como en tiros lejanos.
 
+- Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_FeatureSelection_Luis_Solis.ipynb
+
 ## Desafio Evaluando modelos de Machine Learning
 
 - Requerimientos:
