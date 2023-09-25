@@ -51,7 +51,11 @@
                 - podemos aumentar el número de particiones. Esto ayudará a que el modelo tenga más datos de entrenamiento para cada clase.
 
                 - Otra opción es utilizar un método de validación cruzada que no tome en cuenta la distribución de las clases. Por ejemplo, podemos utilizar K-Fold con un número de particiones impar. Esto ayudará a que el modelo tenga una partición completa para cada clase.
-            
+
+    
+ - Archivo Implementación Desafio:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Desafios/Desafio_CrossValidation_+Luis+Solis.ipynb
 
 ## Desafio Ingeniería de atributos y selección de variables
 
