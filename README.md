@@ -6,6 +6,53 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Desafio CrossValidation y mejora de modelos de ML
+
+- Requerimientos:
+
+    - Entrenar uno de los modelos elegidos con las mismas variables pero aplicando alguno de los métodos aprendidos de validación cruzada
+
+        - Se utilizaron metodos K-Fold Cross Validation y Stratified K-Fold, en ambos casos K = 10, cuyos resultados fueron:
+
+            - K-Fold Cross Validation - Average RMSE: 0.41374959814893586
+            - Stratified K-Fold - Average RMSE: 0.4015367414501386
+
+    - Describir si hay cambios en el performance del modelo y explicar con razones el porqué
+
+        - Metodo K-Fold Cross Validation: 
+        
+            Las conclusiones para el método K-Fold Cross Validation son las siguientes:
+
+                - El RMSE obtenido es mayor que el obtenido con el modelo original, lo que sugiere que el modelo es menos preciso cuando se utiliza K-Fold Cross Validation.
+
+                - Este resultado puede deberse a que K-Fold Cross Validation utiliza una validación cruzada estratificada, lo que significa que cada partición tiene una distribución de clases similar a la distribución de clases en el conjunto de datos completo. En este caso, el conjunto de datos tiene dos clases: jugadores que marcaron goles y jugadores que no marcaron goles. Al utilizar K-Fold Cross Validation, nos aseguramos de que cada partición tenga un número similar de jugadores que marcaron goles y jugadores que no marcaron goles. Esto puede ayudar a mejorar la precisión del modelo de aprendizaje automático, pero también puede introducir sesgos en los resultados.
+
+            Para mejorar la precisión del modelo con K-Fold Cross Validation, podemos considerar las siguientes soluciones:
+
+                - Utilizar un número mayor de particiones. Esto ayudará a reducir el sesgo introducido por la validación cruzada estratificada.
+
+                - Utilizar un método de validación no estratificado. Esto puede ayudar a mejorar la precisión del modelo en general, pero también puede introducir sesgos en los resultados.
+
+                - Utilizar un modelo de aprendizaje automático diferente. Algunos modelos, como los modelos de regresión lineal, pueden ser más precisos que los modelos de regresión de bosque aleatorio cuando se utilizan métodos de validación cruzada.
+
+        - Metodo Stratified K-Fold:
+
+            Las conclusiones para el método Stratified K-Fold son las siguientes:
+
+                - El RMSE obtenido es mayor que el obtenido con el modelo Random Forest Regressor, lo que sugiere que el modelo es menos preciso.
+
+                - Este resultado es esperado, ya que Stratified K-Fold toma en cuenta la distribución de las clases en los datos. En este caso, el conjunto de datos tiene dos clases: jugadores que marcaron goles y jugadores que no marcaron goles. 
+
+            Al utilizar Stratified K-Fold, nos aseguramos de que cada partición tenga un número similar de jugadores que marcaron goles y jugadores que no marcaron goles. Esto puede ayudar a mejorar la precisión del modelo de aprendizaje automático, pero también puede reducir la precisión en los casos en que el modelo está bien entrenado para predecir una clase en particular.
+
+            
+            Para mejorar la precisión del modelo utilizando Stratified K-Fold:
+
+                - podemos aumentar el número de particiones. Esto ayudará a que el modelo tenga más datos de entrenamiento para cada clase.
+
+                - Otra opción es utilizar un método de validación cruzada que no tome en cuenta la distribución de las clases. Por ejemplo, podemos utilizar K-Fold con un número de particiones impar. Esto ayudará a que el modelo tenga una partición completa para cada clase.
+            
+
 ## Desafio Ingeniería de atributos y selección de variables
 
 - Requerimientos:
