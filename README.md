@@ -6,6 +6,13 @@
 
 - Los desafios completados del Curso son los siguientes:
 
+## Entrega Final
+
+- Archivo Implementación:
+
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Proyecto Final\Entrega_ProyectoFinal_Luis+Solis.ipynb
+
+
 ## Desafio CrossValidation y mejora de modelos de ML
 
 - Requerimientos:
