@@ -10,7 +10,7 @@
 
 - Archivo Implementación:
 
-https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/Proyecto Final\Entrega_ProyectoFinal_Luis+Solis.ipynb
+https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/ProyectoFinal\Entrega_ProyectoFinal_Luis+Solis.ipynb
 
 
 ## Desafio CrossValidation y mejora de modelos de ML
