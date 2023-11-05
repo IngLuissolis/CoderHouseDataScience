@@ -12,6 +12,10 @@
 
 https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/ProyectoFinal/Entrega_ProyectoFinal_Luis+Solis.ipynb
 
+- Archivo PDF:
+
+    https://github.com/IngLuissolis/CoderHouseDataScience/tree/main/ProyectoFinal/ANALISIS_DE_DATOS_EN_EL_FUTBOL.pdf
+
 
 ## Desafio CrossValidation y mejora de modelos de ML
 
